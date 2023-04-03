@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bhagesh-portfolio/static/css/main.adde6fc3.css",
+    "main.css": "/bhagesh-portfolio/static/css/main.06283d8a.css",
     "main.js": "/bhagesh-portfolio/static/js/main.a6f3cf02.js",
     "static/js/787.1ed0c42c.chunk.js": "/bhagesh-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/asos.png": "/bhagesh-portfolio/static/media/asos.9749aeee6307ad910932.png",
@@ -10,12 +10,12 @@
     "static/media/Bhagesh_Photo.jpg": "/bhagesh-portfolio/static/media/Bhagesh_Photo.38dd43cdc037279fb588.jpg",
     "static/media/indeed.png": "/bhagesh-portfolio/static/media/indeed.5227751217c0bf9216fb.png",
     "index.html": "/bhagesh-portfolio/index.html",
-    "main.adde6fc3.css.map": "/bhagesh-portfolio/static/css/main.adde6fc3.css.map",
+    "main.06283d8a.css.map": "/bhagesh-portfolio/static/css/main.06283d8a.css.map",
     "main.a6f3cf02.js.map": "/bhagesh-portfolio/static/js/main.a6f3cf02.js.map",
     "787.1ed0c42c.chunk.js.map": "/bhagesh-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adde6fc3.css",
+    "static/css/main.06283d8a.css",
     "static/js/main.a6f3cf02.js"
   ]
 }
