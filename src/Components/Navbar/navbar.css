@@ -1,5 +1,5 @@
 nav{
-    background-color: rgba(70, 232, 244, 0.3);
+    background-color: #2f96dff2;
     width: max-content;
     height: 50%;
     display: block;
@@ -16,7 +16,7 @@ nav{
     justify-content: space-evenly;
     gap: 0.8rem;
     border-radius: 3rem;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
 }
 
 nav a{

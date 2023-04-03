@@ -31,7 +31,7 @@ const Contact = () => {
             </div>
         </center>
         <footer className="bottom">
-            <AiOutlineCopyrightCircle/>2022 Designed and Build by Bhagesh Madavi with ❤️
+            <AiOutlineCopyrightCircle/>2023 Designed and Build by Bhagesh Madavi with ❤️
         </footer>
     </div>
   )

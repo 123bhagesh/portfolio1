@@ -22,11 +22,11 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    row-gap: 35px;
-    padding: 1rem;
+    /* gap: 35px 15px; */
+    /* padding: 1.2rem 0px; */
     margin: 0.2rem;
     background-color: var(--color-bg);
     /* border-radius: 0.5rem;
@@ -175,6 +175,15 @@ video{
     .project{
         margin: auto;
     }
+    .project-tools{
+
+        width: 100%;
+        margin-bottom: 1.1rem;
+    }
+    .project-tools >a{
+        width: 4rem;
+        height: 4rem;
+    }
     .inner-project{
         width: 100%;
         flex-direction: column;
@@ -187,7 +196,7 @@ video{
         margin: 0;
     }
     h2{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     ul{
         font-size: 1rem;
