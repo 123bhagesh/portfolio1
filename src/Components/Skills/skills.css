@@ -48,8 +48,10 @@
     height: 10rem;
     object-fit:contain;
     box-sizing: border-box;
+    padding-bottom: 12px;
     /* border-radius: 50%; */
-    background-color: var(--color-white);
+    /* background-color: var(--color-white); */
+    background-color: var(--color-bg);
     /* border: 1px solid var(--color-primary); */
     transition: var(--transition);
     border-radius: 0.5rem;
@@ -69,11 +71,27 @@ a{
     transition: var(--transition);
     box-sizing: border-box;
     overflow:visible;
+    /* background-color: white; */
+    background-color: var(--color-bg);
+
+}
+.front > a >div, .back > a>div{
+    margin: auto;
     background-color: white;
+    width: 8rem;
+    height: 8rem;  
+    border-radius: 6px;
+}
+.front > a >img, .back > a>img{
+    max-width: 8rem;
+    max-height: 8rem;  
     
 }
-a > h2{
+a > p{
     text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 .front .back{
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
@@ -111,25 +129,29 @@ a > h2{
   
   @media screen and (max-width: 600px){
     .front > a, .back > a{
+        background-color: #1f1f38;
+        text-align: center;
+
+        /* border: 2px solid white; */
+        /* max-height: 4rem;   */
+        /* margin:1rem; */
+    }
+    .front > a >div, .back > a>div{
+        margin: auto;
+        background-color: white;
+        width: 4rem;
+        height: 4rem;  
+        border-radius: 6px;
+    }
+    .front > a >img, .back > a>img{
         max-width: 4rem;
         max-height: 4rem;  
-        margin:1rem;
+        
     }
-    h2{
-        font-size: 1rem;
+    a > p{
+        font-size: .9rem;
+        text-align: center;
+        /* border: 2px solid red; */
     }
   }
 
-  @media screen and (max-width: 450px){
-    .front > a, .back > a{
-        max-width: 4rem;
-        max-height: 4rem;  
-        margin:1rem;
-    }
-    h2{
-        font-size: 0.6rem;
-    }
-    a > h2{
-        font-size: 0.8rem;
-    }
-  }

@@ -43,7 +43,7 @@ const Projects = () => {
                 src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVA SCRIPT</h2>
+              <h2>JAVASCRIPT</h2>
             </a>
             <a target="_blank"  href="https://developers.google.com/maps/documentation/geolocation/overview">
               <img
@@ -109,7 +109,7 @@ const Projects = () => {
                 src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVA SCRIPT</h2>
+              <h2>JAVASCRIPT</h2>
             </a>
             <a target="_blank"  href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">
               <img
@@ -173,7 +173,7 @@ const Projects = () => {
                 src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVA SCRIPT</h2>
+              <h2>JAVASCRIPT</h2>
             </a>
 
             <a target="_blank"  href="https://reactjs.org/">
@@ -244,7 +244,7 @@ const Projects = () => {
                 src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVA SCRIPT</h2>
+              <h2>JAVASCRIPT</h2>
             </a>
 
             <a target="_blank"  href="https://reactjs.org/">

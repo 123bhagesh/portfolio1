@@ -52,8 +52,8 @@ video{
     object-fit:contain;
     box-sizing: border-box;
  }
- h2{ 
-    font-size: 1rem;
+ a > h2{ 
+    font-size: .9rem;
     font-weight: bold;
     
  }
