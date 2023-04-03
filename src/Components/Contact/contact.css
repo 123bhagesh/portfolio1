@@ -60,4 +60,11 @@ name{
     h1, name{ 
         font-size: 1.7rem;
     }
+    .bottom{
+        width: 85%;
+        margin: auto;
+        margin-top: 7rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
   }
