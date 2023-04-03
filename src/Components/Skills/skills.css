@@ -21,21 +21,25 @@
     }
 
     .front,.back{
-        width: 100%;
+        width: 90%;
         height: 100%;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        gap: 50px;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         flex-wrap: wrap;
         align-items: center;
         padding: 1rem;
-        margin: 1rem;
+        margin: auto;
         background-color: var(--color-bg);
         /* border-radius: 0.5rem;
         box-shadow: 0 0.5rem 1rem rgba(104, 154, 230, 0.2); */
         transition: var(--transition);
         box-sizing: border-box;
-        row-gap: 22px;
+        margin-top: 20px;
+        /* row-gap: 22px; */
+        /* border: 2px solid white; */
     } 
 
 .front > a:hover, .back > a:hover{
@@ -119,15 +123,27 @@ a > p{
     .front,.back{
         padding-left: 0;
         margin-top:2rem;
-
+        row-gap: 100px ;
     }
-    
+    a > p{
+        font-size: 1rem;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
   }
   
     
   /* =============Media Queries (Small devices)=========== */
   
   @media screen and (max-width: 600px){
+    .front{
+        width: 90%;
+        grid-template-columns: repeat(3, auto);
+        gap: 2px;
+        /* border: 2px solid white; */
+        margin: auto;
+
+    }
     .front > a, .back > a{
         background-color: #1f1f38;
         text-align: center;

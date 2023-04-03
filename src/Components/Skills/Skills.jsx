@@ -41,8 +41,8 @@ const Skills = () => {
                 <div><img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/redux-512.png" alt="Redux" /></div>
                 <p>Redux</p>
             </a>
-        </div>
-        <div className="back">
+        {/* </div>
+        <div className="back"> */}
             <a href="https://nodejs.org/en/">
                 <div><img src="https://user-images.githubusercontent.com/4727/38117898-75c704e4-336c-11e8-82bb-dffd73f55e94.png" alt="Node JS" /></div>
                 <p>Node JS</p>

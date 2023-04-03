@@ -86,6 +86,7 @@
   /* =============Media Queries (Small devices)=========== */
   
   @media screen and (max-width: 600px){
+
     .header{
         width: 100%;
         /* border-top: 1px solid green; */
@@ -101,7 +102,6 @@
     .developerName{
         width: 300px;
         margin-left: 85px;
-        margin-top: -25px;
     }
     
     .me{
