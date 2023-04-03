@@ -1,0 +1,113 @@
+.header_container{ 
+    margin:2rem;
+    margin-top: 1rem;
+    width: 90%;
+    justify-content: center;
+}
+.me{
+    background: linear-gradient(transparent,var(--color-primary));
+    width: 20rem;
+    /* height: 30rem; */
+    /* position: absolute; */
+    /* left:calc(50% -10rem); */
+    /* margin-top:1.2rem; */
+    top: 0%;
+    /* left: 10%; */
+    /* transform: translateX(-50%); */
+    border-radius:50%;
+    overflow:hidden;
+       
+}
+.header{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+.developerName{
+    margin-left: 127px;
+    width:450px;
+    
+}
+
+
+.about{ 
+    letter-spacing: 0.1rem;
+    transition: var(--transition);
+    text-align: center;
+
+}
+
+.cta{
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+/* =============Media Queries (Medium devices)=========== */
+
+@media screen and (max-width: 1110px){
+    .header{
+        width: 100%;
+        /* border-top: 1px solid green; */
+        padding:0rem;
+    }
+    .header_container{
+        width: 100%;
+        /* border: 1px solid red; */
+        margin:0;
+        padding:0rem;
+        
+    }
+    .navbar-external{
+        display:none;
+    }
+    .about{
+        padding:1rem;
+    }
+    
+    
+    section{
+        margin-top: 6rem;
+    }
+  }
+  
+    
+  /* =============Media Queries (Small devices)=========== */
+  
+  @media screen and (max-width: 600px){
+    .header{
+        width: 100%;
+        /* border-top: 1px solid green; */
+        padding:0rem;
+    }
+    .header_container{
+        width: 100%;
+        /* border: 1px solid red; */
+        margin:0;
+        padding:0rem;
+        
+    }   
+    .developerName{
+        width: 300px;
+        margin-left: 85px;
+        margin-top: -25px;
+    }
+    
+    .me{
+        width: 15rem;
+    }
+    .about{ 
+        letter-spacing: 0rem;
+        transition: var(--transition);
+        padding: 0.5rem;
+    }
+    .cta >a{
+        max-width:fit-content;
+    }
+  }
