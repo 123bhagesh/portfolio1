@@ -1,6 +1,6 @@
 .project{
     margin-top: 2rem ;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 90%;
     height: 100%;
     /* border: 2px solid white; */
@@ -79,6 +79,7 @@ video{
     transition: var(--transition);
     box-sizing: border-box;
     margin-bottom: 30px;
+    margin-top: 22px;
  }
 
  .project-video{
