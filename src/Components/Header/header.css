@@ -39,7 +39,12 @@
     text-align: center;
 
 }
+/* .btn{
+    background-color: #282c34;
+}
+.btn-primary{
 
+} */
 .cta{
     display: flex;
     justify-content:center;

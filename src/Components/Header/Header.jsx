@@ -14,6 +14,7 @@ const Header = () => {
             <h3 >Hello I'm</h3>
           <h1>Bhagesh Madavi</h1>
               <img className="developerName" src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdei&size=25&lines=Full-Stack+Web+Developer" />
+          {/* </div> */}
           {/* <h4 className="text-light">Full-Stack Web Developer</h4> */}
           <div className="me">
             <img src={ME} alt="Me" />
