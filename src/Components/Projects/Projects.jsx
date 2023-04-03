@@ -40,7 +40,7 @@ const Projects = () => {
             </a>
             <a target="_blank"  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
               <img
-                src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
               <h2>JAVASCRIPT</h2>
@@ -106,7 +106,7 @@ const Projects = () => {
             </a>
             <a target="_blank"  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
               <img
-                src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
               <h2>JAVASCRIPT</h2>
@@ -170,7 +170,7 @@ const Projects = () => {
             </a>
             <a target="_blank"  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
               <img
-                src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
               <h2>JAVASCRIPT</h2>
@@ -241,7 +241,7 @@ const Projects = () => {
             </a>
             <a target="_blank"  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
               <img
-                src="https://img.favpng.com/5/20/4/javascript-angularjs-node-js-computer-icons-clip-art-png-favpng-i95A24zviWmnB1GxB02Hnae5Q.jpg"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
               <h2>JAVASCRIPT</h2>

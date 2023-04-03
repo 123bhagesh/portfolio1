@@ -1,8 +1,10 @@
 .header_container{ 
-    margin:2rem;
+    /* margin:2rem; */
     margin-top: 1rem;
     width: 90%;
     justify-content: center;
+    /* border: 2px solid white; */
+
 }
 .me{
     background: linear-gradient(transparent,var(--color-primary));
@@ -112,7 +114,15 @@
         transition: var(--transition);
         padding: 0.5rem;
     }
+    .cta{
+        width: 100%;
+        gap: 0;
+        margin: auto;
+        padding: none;
+     }
     .cta >a{
+    
         max-width:fit-content;
+    
     }
   }
