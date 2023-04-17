@@ -5,6 +5,28 @@ import ME from "../../assets/Bhagesh_Photo.jpg";
 import Navbar from "../Navbar/Navbar";
 // import HeaderSocial from "./HeaderSocial";
 
+const handleResume = () => {
+  let alink = document.createElement("a");
+  alink.href =
+    "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
+  // alink.click();
+  // alink.download = "resume.pdf ";
+  // alink.target = "blank";
+  alink.click();
+};
+let resumeLink=  "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
+
+// const viewResume = () => {
+//   window.open(resumeLink);
+// };
+const downloadResume = () => {
+  let alink = document.createElement('a');
+  alink.href = resumeLink;
+  alink.download = 'Bhagesh_Madavi_Resume.pdf';
+  alink.click();
+  // viewResume();
+};
+
 const Header = () => {
   return (
     <div id="#" className="header">
@@ -35,12 +57,16 @@ const Header = () => {
             </div>
             <div className="cta">
               <a
-                href="https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing"
+                onClick={downloadResume}
+                // href="https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing"
                 target="_blank"
                 className="btn"
               >
                 Download Resume
               </a>
+              <button onClick={downloadResume} style={{ padding: "10px" }}>
+                DOWNLOAD Resume
+              </button>
               <a href="#contact" className="btn btn-primary">
                 Let's Talk
               </a>

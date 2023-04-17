@@ -5,13 +5,6 @@ import GitHubCalendar from "react-github-calendar";
 export const Github = () => {
   const [text, setText] = useState();
 
-  //   menuHamburger.addEventListener("click", () => {
-  //     navLinks.classList.toggle("mobile-menu");
-  //   });
-
-  //   const = GitHubCalendar(".calendar", "shoto2000");
-
-  // or enable responsive functionality:
 
   return (
     <div id="github">
