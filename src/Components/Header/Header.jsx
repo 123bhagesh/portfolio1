@@ -15,7 +15,7 @@ const Header = () => {
             <h1>Bhagesh Madavi</h1>
             <img
               className="developerName"
-              src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdei&size=25&lines=Full-Stack+Web+Developer"
+              src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdei&size=25&lines=Frontend+Web+Developer"
             />
             {/* </div> */}
             {/* <h4 className="text-light">Full-Stack Web Developer</h4> */}
@@ -27,7 +27,7 @@ const Header = () => {
           <div className="top-portion">
             <div></div>
             <div className="about">
-              <p>I am a Full-Stack Web Developer with a hands-on Javascript.</p>
+              <p>I am a Frontend Web Developer with a hands-on Javascript.</p>
               <p>
                 Analysis | development | Implementation of responsive web
                 interfaces using javascript react.js.
@@ -51,9 +51,9 @@ const Header = () => {
           {/* <a href="#contact" className="scroll__down">Scroll Down</a> */}
         </div>
       </header>
-      <div className="navbar-external">
+      {/* <div className="navbar-external">
         <Navbar />
-      </div>
+      </div> */}
     </div>
   );
 };

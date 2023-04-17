@@ -1,9 +1,11 @@
 .header_container{ 
     /* margin:2rem; */
-    margin-top: 1rem;
+    margin-top: 3rem;
     width: 90%;
+    margin: auto;
     justify-content: center;
     /* border: 2px solid white; */
+    margin-top: 90px;
 
 }
 .me{
@@ -45,7 +47,6 @@
     background-color: #282c34;
 }
 .btn-primary{
-
 } */
 .cta{
     display: flex;
@@ -69,7 +70,8 @@
         /* border: 1px solid red; */
         margin:0;
         padding:0rem;
-        
+        margin-top: 90px;
+
     }
     .navbar-external{
         display:none;
@@ -99,7 +101,8 @@
         /* border: 1px solid red; */
         margin:0;
         padding:0rem;
-        
+        margin-top: 90px;
+
     }   
     .developerName{
         width: 300px;
