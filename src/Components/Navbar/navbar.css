@@ -94,8 +94,8 @@ nav a.active {
     }
     .btnResume {
         /* display: none; */
-        font-size: 13px;
-        padding: 4px 8px;
+        font-size: 12px;
+        padding: 5px 8px;
         border: 1px solid white;
         color: white;
         border-radius: 8px;
@@ -156,10 +156,3 @@ nav a.active {
         cursor: pointer;
     }
 }
-
-/* @media screen and (max-width: 450px){
-    .navbarContainer{
-        width: 100%;
-        margin: auto;
-    }
-} */
