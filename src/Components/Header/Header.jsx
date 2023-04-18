@@ -3,29 +3,28 @@ import "./header.css";
 // import CTA from "./CTA";
 import ME from "../../assets/Bhagesh_Photo.jpg";
 import Navbar from "../Navbar/Navbar";
+import resumeFile from '../../assets/BhageshResume.pdf'
 // import HeaderSocial from "./HeaderSocial";
 
 const handleResume = () => {
   let alink = document.createElement("a");
-  alink.href =
-    "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
-  // alink.click();
-  // alink.download = "resume.pdf ";
-  // alink.target = "blank";
+  alink.href = resumeFile;
+  alink.download = "Bhagesh Madavi Resume.pdf";
   alink.click();
+  viewResume()
 };
 // let resumeLink=  "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
 
-const downloadAndOpenResume = () => {
-  let downloadLink = document.createElement("a");
-  downloadLink.href =
-    "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
-  downloadLink.download = "Anshul_Resume.pdf";
-  document.body.appendChild(downloadLink);
-  downloadLink.click();
-  viewResume();
-  document.body.removeChild(downloadLink);
-};
+// const downloadAndOpenResume = () => {
+//   let downloadLink = document.createElement("a");
+//   downloadLink.href =
+//     "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
+//   downloadLink.download = "Anshul_Resume.pdf";
+//   document.body.appendChild(resume);
+//   downloadLink.click();
+//   // viewResume();
+//   document.body.removeChild(downloadLink);
+// };
 const viewResume = () => {
   window.open(
     "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing"
@@ -62,14 +61,14 @@ const Header = () => {
             </div>
             <div className="cta">
               <a
-                onClick={downloadAndOpenResume}
+                onClick={handleResume}
                 // href="https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing"
                 target="_blank"
                 className="btn"
               >
                 Download Resume
               </a>
-              {/* <button onClick={ downloadAndOpenResume } style={{ padding: "10px" }}>
+              {/* <button onClick={handleResume} style={{ padding: "10px" }}>
                 DOWNLOAD Resume
               </button> */}
               <a href="#contact" className="btn btn-primary">

@@ -17,7 +17,7 @@ const Navbar = () => {
           onClick={() => setActiveNav("#")}
           className={activeNav === "#" ? "active" : ""}
         >
-          About
+          Home
         </a>
         <a
           href="#skills"
