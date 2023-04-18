@@ -10,7 +10,7 @@
 }
 nav {
     background: #150303f2;
-    width: 73%;
+    width: 75%;
     margin: auto;
     height: 60px;
     display: block;
@@ -66,6 +66,12 @@ nav a.active {
 
 
 }
+@media screen and (max-width: 1150px){
+    nav {
+        background: #150303f2;
+        width: 80%;
+    }
+}
 @media screen and (max-width: 650px){
 .navbarContainer{
     width: 100%;
@@ -86,7 +92,7 @@ nav a.active {
     }
     nav a {
         /* padding-top: 8px; */
-        font-size: 13px;
+        font-size: 12px;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 1px;

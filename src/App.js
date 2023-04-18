@@ -7,6 +7,7 @@ import React,{useState} from 'react'
 
 import Navbar from "./Components/Navbar/Navbar.jsx"
 import { Github } from "./Components/Github/Github.jsx"
+import About from "./Components/About/About.jsx"
 function App() {
   const [activeNav, setActiveNav] =useState("#")
 
@@ -15,11 +16,11 @@ function App() {
     <div className="App">
       <Navbar/>
        <Header/>
+       <About/>
       <Skills/>
       <Projects/>
       <Github/>
       <Contact/>
-
     </div>
   );
 }

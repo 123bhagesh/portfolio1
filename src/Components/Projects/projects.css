@@ -182,6 +182,7 @@ video{
         box-shadow: 0 0.5rem 1rem rgba(104, 154, 230, 0.2); */
         transition: var(--transition);
         box-sizing: border-box;
+    
         
     }
     .inner-project{
