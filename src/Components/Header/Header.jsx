@@ -37,26 +37,29 @@ const Header = () => {
     <div id="#" className="header">
       <header>
         <div className="header_container">
-          <div style={{display:'flex',flexDirection:'column',justifyContent:"center",textAlign:'center'}}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              textAlign: "center",
+            }}
+          >
             <h3>Hello I'm</h3>
             <h1>Bhagesh Madavi</h1>
             <div className="typeAnimation">
-          <Typewriter
-            options={{
-              autoStart: true,
-              loop: true,
-              delay: 40,
-              strings: [
-                "Software Developer...",
-                "Frontend Web Developer...",
-              ],
-            }}
-          />
-        </div>
-            {/* <img
-              className="developerName"
-              src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdei&size=25&lines=Frontend+Web+Developer"
-            /> */}
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 40,
+                  strings: [
+                    "Software Developer...",
+                    "Frontend Web Developer...",
+                  ],
+                }}
+              />
+            </div>
 
             <div className="me">
               <img src={ME} alt="Me" />
