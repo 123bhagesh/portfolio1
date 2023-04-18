@@ -43,7 +43,7 @@ const Projects = () => {
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVASCRIPT</h2>
+              <h2>Javascript</h2>
             </a>
             <a target="_blank"  href="https://developers.google.com/maps/documentation/geolocation/overview">
               <img
@@ -109,7 +109,7 @@ const Projects = () => {
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVASCRIPT</h2>
+              <h2>Javascript</h2>
             </a>
             <a target="_blank"  href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">
               <img
@@ -173,7 +173,7 @@ const Projects = () => {
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVASCRIPT</h2>
+              <h2>Javascript</h2>
             </a>
 
             <a target="_blank"  href="https://reactjs.org/">
@@ -244,7 +244,7 @@ const Projects = () => {
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                 alt="JAVA SCRIPT"
               />
-              <h2>JAVASCRIPT</h2>
+              <h2>Javascript</h2>
             </a>
 
             <a target="_blank"  href="https://reactjs.org/">
