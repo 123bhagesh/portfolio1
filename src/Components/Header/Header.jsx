@@ -14,17 +14,22 @@ const handleResume = () => {
   // alink.target = "blank";
   alink.click();
 };
-let resumeLink=  "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
+// let resumeLink=  "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
 
-// const viewResume = () => {
-//   window.open(resumeLink);
-// };
-const downloadResume = () => {
-  let alink = document.createElement('a');
-  alink.href = resumeLink;
-  alink.download = 'Bhagesh_Madavi_Resume.pdf';
-  alink.click();
-  // viewResume();
+const downloadAndOpenResume = () => {
+  let downloadLink = document.createElement("a");
+  downloadLink.href =
+    "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
+  downloadLink.download = "Anshul_Resume.pdf";
+  document.body.appendChild(downloadLink);
+  downloadLink.click();
+  viewResume();
+  document.body.removeChild(downloadLink);
+};
+const viewResume = () => {
+  window.open(
+    "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing"
+  );
 };
 
 const Header = () => {
@@ -57,16 +62,16 @@ const Header = () => {
             </div>
             <div className="cta">
               <a
-                onClick={downloadResume}
+                onClick={downloadAndOpenResume}
                 // href="https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing"
                 target="_blank"
                 className="btn"
               >
                 Download Resume
               </a>
-              <button onClick={downloadResume} style={{ padding: "10px" }}>
+              {/* <button onClick={ downloadAndOpenResume } style={{ padding: "10px" }}>
                 DOWNLOAD Resume
-              </button>
+              </button> */}
               <a href="#contact" className="btn btn-primary">
                 Let's Talk
               </a>
