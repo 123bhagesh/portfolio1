@@ -12,6 +12,7 @@ export const Github = () => {
         <h1 style={{ marginTop: "10px" }}>GitHub Analytics</h1>
       </center>
       <div className="githubContainer">
+        
         <a href="https://github.com/123bhagesh" target="blank">
           <img
             height="160em"

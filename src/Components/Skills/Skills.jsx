@@ -30,7 +30,7 @@ const Skills = () => {
             </a>
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JAVA SCRIPT" />
-                <p>JAVASCRIPT</p>
+                <p>Javascript</p>
             </a>
             <a href="https://reactjs.org/">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React" />
@@ -62,12 +62,29 @@ const Skills = () => {
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" />
             <p>Github</p>
             </a>
-            {/* <a href="#">
+            <a href="#">
             <img src="https://w7.pngwing.com/pngs/125/653/png-transparent-algorithms-data-structures-programs-data-structures-and-algorithms-introduction-to-algorithms-others-miscellaneous-angle-computer-science.png" alt="DS ALGO" />
             <p>DSA</p>
-            </a> */}
-            
+            </a>
+            <a href="#">
+            <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" alt="Material UI" />
+            <p>MUI</p>
+            </a>
+            <a href="#">
+            <img src="https://i.pinimg.com/236x/ca/dd/fc/caddfc0001548e9397c5352ee4e807ae.jpg" alt="AWS server" />
+            <p>AWS</p>
+            </a>
+            <a href="#">
+            <img src="https://assets.stickpng.com/images/58480f36cef1014c0b5e4934.png" alt="Markdown" />
+            <p>Markdown</p>
+            </a>
+            <a href="#">
+            <img style={{objectFit:'cover'}} src="https://icons.veryicon.com/png/o/application/skills-section/bootstrap-2.png" alt="Bootstrap" />
+            <p>Bootstrap</p>
+            </a>
+
         </div>
+
     </div>
 
     </section>
