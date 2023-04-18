@@ -21,7 +21,7 @@ let educationData = [
 ];
 const Education = () => {
   return (
-    <div id="about" className="project">
+    <div id="education" className="project">
       <center>
         <h1 >Education</h1>
       </center>
