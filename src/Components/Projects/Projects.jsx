@@ -16,7 +16,7 @@ import dnaIndia from "../../assets/dnaIndia.png"
 const Projects = () => {
   return (
     <div id="projects" className="project">
-      <center><h1>Projects</h1></center>
+      <center><h1 >Projects</h1></center>
 
        {/* First Project */}
       <div className="inner-project">
@@ -55,7 +55,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-description">
-          <h2 style={{fontSize:"34px"}}>Clone of Asos</h2>
+          <h2 style={{fontSize:"31px"}}>Clone of Asos</h2>
           <p>
             Asos is an E-commerce website which sells skin care, cloth, health, grooming, footwear and accessories
             product.
@@ -121,7 +121,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-description">
-          <h2 style={{fontSize:"34px"}}>Clone of Buywow</h2>
+          <h2 style={{fontSize:"31px"}}>Clone of Buywow</h2>
           <p>
           This project is a clone of "www.buywow.in", which is a health, grooming, and beauty Products website. 
           </p>
@@ -193,7 +193,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-description">
-          <h2 style={{fontSize:"34px"}}>Clone of Indeed</h2>
+          <h2 style={{fontSize:"31px"}}>Clone of Indeed</h2>
           <p>
           Indeed is a Job Search Site that helps you find job based on your profile.
           </p>
@@ -264,7 +264,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-description">
-          <h2 style={{fontSize:"34px"}}>Clone of DnaIndia</h2>
+          <h2 style={{fontSize:"31px"}}>Clone of DnaIndia</h2>
           <p>
           DnaIndia  is news website. Latest News Headlines and Live Updates - DNA India Covers all latest and breaking news on Politics, Business, Sports, Bollywood, technology & health. 
           </p>

@@ -35,6 +35,10 @@
     box-sizing: border-box;
     
 }
+h1{
+    font-size: 40px;
+    font-weight: 800;
+}
 img{
     /* border: 1px solid yellow; */
     max-width: 100%;
@@ -210,8 +214,8 @@ video{
         padding: 1.2rem 0px;
         margin: 0.2rem;
         background-color: var(--color-bg);
-        /* border-radius: 0.5rem;
-        box-shadow: 0 0.5rem 1rem rgba(104, 154, 230, 0.2); */
+        /* border-radius: 0.5rem; */
+        /* box-shadow: 0 0.5rem 1rem rgba(104, 154, 230, 0.2); */
         transition: var(--transition);
         box-sizing: border-box;
         
