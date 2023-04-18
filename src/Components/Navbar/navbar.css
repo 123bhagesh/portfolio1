@@ -125,7 +125,7 @@ nav a.active {
 
     nav a {
         /* padding-top: 8px; */
-        font-size: 12px;
+        font-size: 11px;
         margin-right: 0;
         margin-left: 0;
         margin-bottom: 1px;
@@ -148,7 +148,7 @@ nav a.active {
 
     .btnResume {
         display: none;
-        font-size: 12px;
+        font-size: 11px;
         padding: 3px 2px;
         border: 1px solid white;
         color: white;

@@ -21,8 +21,8 @@ const Projects = () => {
       <center>
         <h1>Projects</h1>
       </center>
-            {/* Sixth Project */}
-            <div className="inner-project">
+      {/* Sixth Project */}
+      <div className="inner-project">
         <div className="project-video">
           <img src={aimeeDash} alt="Aimee Project" />
           <div className="project-tools">
@@ -105,7 +105,9 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-description">
-          <h2 style={{ fontSize: "31px" }}>AIMEE International School </h2>
+          <h2 style={{ fontSize: "31px" }}>
+            Industry product- AIMEE International School{" "}
+          </h2>
           <p>
             AIMEE Management Portal is a school and learning management system
             where some roles bashed dashboard are allowed to do and manage the
@@ -130,7 +132,6 @@ const Projects = () => {
               <li>
                 All user roles have access for different profiles of student.
               </li>
-              
             </ul>
           </p>
           <br />
@@ -288,7 +289,98 @@ const Projects = () => {
         </div>
       </div>
 
+      {/* Fourth Project */}
 
+      <div className="inner-project">
+        <div className="project-video">
+          {/* <video src={RL} autoplay loop="true"></video> */}
+          <img src={indeed} alt="Buy Wow" />
+          <div className="project-tools">
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png"
+                alt="HTML"
+              />
+              <h2>HTML</h2>
+            </a>
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            >
+              <img
+                src="https://w7.pngwing.com/pngs/454/464/png-transparent-css3-cascading-style-sheets-logo-html-markup-language-others-miscellaneous-blue-angle-thumbnail.png"
+                alt="CSS"
+              />
+              <h2>CSS</h2>
+            </a>
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                alt="JAVA SCRIPT"
+              />
+              <h2>Javascript</h2>
+            </a>
+
+            <a target="_blank" href="https://reactjs.org/">
+              <img
+                src="https://avatars.githubusercontent.com/u/6412038?s=280&v=4"
+                alt="React.js"
+              />
+              <h2>React.js</h2>
+            </a>
+            <a target="_blank" href="https://redux.js.org/">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDn-_kLAcnntK415Ct2XJd9Uz6A74Qs6LkvcoS6GNWzG-0zsBTBS1EUTYdJXXJn-JnqQ&usqp=CAU"
+                alt="Redux"
+              />
+              <h2>Redux</h2>
+            </a>
+          </div>
+        </div>
+        <div className="project-description">
+          <h2 style={{ fontSize: "31px" }}>Clone of Indeed</h2>
+          <p>
+            Indeed is a Job Search Site that helps you find job based on your
+            profile.
+          </p>
+          <p>
+            <br />
+            <h2>Features:-</h2>
+            <ul>
+              <li>Sign-up/Login</li>
+              <li>Different types of jobs</li>
+              <li>Search for Jobs </li>
+              <li>Apply Job</li>
+              <li>Profile Save</li>
+              <li>Responsive</li>
+            </ul>
+          </p>
+          <br />
+          <h2>Tech Stack:-</h2>
+          <p>
+            HTML | CSS | Javascript | React | Redux | Firebase | Material UI |
+            Heroku Api
+          </p>
+
+          <div className="live-links">
+            <a target="_blank" href="https://indeed-beta.vercel.app/">
+              <BsRocketTakeoff /> Live Site
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/AdilAhmed976/Indeed.com"
+            >
+              <BsGithub /> Github Repo
+            </a>
+          </div>
+        </div>
+      </div>
       {/* First Project */}
       <div className="inner-project">
         <div className="project-video">
@@ -461,96 +553,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="inner-project">
-        <div className="project-video">
-          {/* <video src={RL} autoplay loop="true"></video> */}
-          <img src={indeed} alt="Buy Wow" />
-          <div className="project-tools">
-            <a
-              target="_blank"
-              href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png"
-                alt="HTML"
-              />
-              <h2>HTML</h2>
-            </a>
-            <a
-              target="_blank"
-              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-            >
-              <img
-                src="https://w7.pngwing.com/pngs/454/464/png-transparent-css3-cascading-style-sheets-logo-html-markup-language-others-miscellaneous-blue-angle-thumbnail.png"
-                alt="CSS"
-              />
-              <h2>CSS</h2>
-            </a>
-            <a
-              target="_blank"
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-                alt="JAVA SCRIPT"
-              />
-              <h2>Javascript</h2>
-            </a>
 
-            <a target="_blank" href="https://reactjs.org/">
-              <img
-                src="https://avatars.githubusercontent.com/u/6412038?s=280&v=4"
-                alt="React.js"
-              />
-              <h2>React.js</h2>
-            </a>
-            <a target="_blank" href="https://redux.js.org/">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbDn-_kLAcnntK415Ct2XJd9Uz6A74Qs6LkvcoS6GNWzG-0zsBTBS1EUTYdJXXJn-JnqQ&usqp=CAU"
-                alt="Redux"
-              />
-              <h2>Redux</h2>
-            </a>
-          </div>
-        </div>
-        <div className="project-description">
-          <h2 style={{ fontSize: "31px" }}>Clone of Indeed</h2>
-          <p>
-            Indeed is a Job Search Site that helps you find job based on your
-            profile.
-          </p>
-          <p>
-            <br />
-            <h2>Features:-</h2>
-            <ul>
-              <li>Sign-up/Login</li>
-              <li>Different types of jobs</li>
-              <li>Search for Jobs </li>
-              <li>Apply Job</li>
-              <li>Profile Save</li>
-              <li>Responsive</li>
-            </ul>
-          </p>
-          <br />
-          <h2>Tech Stack:-</h2>
-          <p>
-            HTML | CSS | Javascript | React | Redux | Firebase | Material UI |
-            Heroku Api
-          </p>
-
-          <div className="live-links">
-            <a target="_blank" href="https://indeed-beta.vercel.app/">
-              <BsRocketTakeoff /> Live Site
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/AdilAhmed976/Indeed.com"
-            >
-              <BsGithub /> Github Repo
-            </a>
-          </div>
-        </div>
-      </div>
       {/* Fourth Project */}
 
       {/* <div className="inner-project">
@@ -638,8 +641,6 @@ const Projects = () => {
           </div>
         </div>
       </div> */}
-
-
     </div>
   );
 };
