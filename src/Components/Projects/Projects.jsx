@@ -112,7 +112,7 @@ const Projects = () => {
             AIMEE Management Portal is a school and learning management system
             where some roles bashed dashboard are allowed to do and manage the
             thing in a school or orgnisation. We are buiding and designing this
-            product .
+            product to manage student data like Academic Profile of the Student, Behavioural Profile of the Student, Sports Profile of the Student, Co-Curricular Activities Profile of the Student.
           </p>
           <p>
             <br />
@@ -151,7 +151,7 @@ const Projects = () => {
               target="_blank"
               // href=""
             >
-              <BsGithub /> Github Repo
+              <BsGithub /> Github  <div className="mobileView">Repo</div>
             </a>
           </div>
         </div>
@@ -283,7 +283,7 @@ const Projects = () => {
               target="_blank"
               href="https://github.com/masai-builds/masai-tutorials-team3"
             >
-              <BsGithub /> Github Repo
+              <BsGithub /> Github <div className="mobileView">Repo</div>
             </a>
           </div>
         </div>
@@ -376,7 +376,7 @@ const Projects = () => {
               target="_blank"
               href="https://github.com/AdilAhmed976/Indeed.com"
             >
-              <BsGithub /> Github Repo
+              <BsGithub /> Github <div className="mobileView">Repo</div>
             </a>
           </div>
         </div>
@@ -459,7 +459,7 @@ const Projects = () => {
               <BsRocketTakeoff /> Live Site
             </a>
             <a target="_blank" href="https://github.com/123bhagesh/Asos.com">
-              <BsGithub /> Github Repo
+              <BsGithub /> Github <div className="mobileView">Repo</div>
             </a>
           </div>
         </div>
@@ -547,7 +547,7 @@ const Projects = () => {
               target="_blank"
               href="https://github.com/kosireddisreeram/unit3_constructweek"
             >
-              <BsGithub /> Github Repo
+              <BsGithub /> Github <div className="mobileView">Repo</div>
             </a>
           </div>
         </div>

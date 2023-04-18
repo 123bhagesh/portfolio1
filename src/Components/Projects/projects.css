@@ -138,6 +138,10 @@ video{
     box-sizing: border-box;
 }
 .live-links > a{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    justify-content: center;
     width: 10rem;
     /* height: 2.3rem; */
     object-fit:contain;
@@ -238,6 +242,14 @@ video{
     }
     .project-description{
         margin: 0;
+    }
+    .live-links > a{
+        display: block;
+        align-items: center;
+        gap:8px;
+    }
+    .mobileView{
+        display: none;
     }
     a>h2{
         font-size: 0.8rem;
