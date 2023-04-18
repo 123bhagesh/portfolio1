@@ -1,21 +1,24 @@
 .header_container{ 
     /* margin:2rem; */
     margin-top: 3rem;
-    width: 90%;
+    width: 100%;
     margin: auto;
     justify-content: center;
-    /* border: 2px solid white; */
-    margin-top: 90px;
+    /* border: 2px solid #fcff32; */
+    margin-top: 80px;
+    text-align: center;
 
 }
 .me{
     background: linear-gradient(transparent,var(--color-primary));
-    width: 20rem;
+    width: 250px;
+    margin: auto;
+    /* width: 20rem; */
     /* height: 30rem; */
     /* position: absolute; */
     /* left:calc(50% -10rem); */
     /* margin-top:1.2rem; */
-    top: 0%;
+    /* top: 0%; */
     /* left: 10%; */
     /* transform: translateX(-50%); */
     border-radius:50%;
@@ -31,11 +34,18 @@
 
 }
 .developerName{
-    margin-left: 127px;
+    /* margin-left: 127px; */
     width:450px;
     
 }
-
+.typeAnimation {
+    font-size: 20px;
+    font-weight: bold;
+    color: #43b5ff;
+    font-family: "ClickerScript", cursive;
+    margin-top: -5px;
+    margin-bottom: 8px;
+}
 
 .about{ 
     letter-spacing: 0.1rem;
@@ -43,11 +53,7 @@
     text-align: center;
 
 }
-/* .btn{
-    background-color: #282c34;
-}
-.btn-primary{
-} */
+
 .cta{
     display: flex;
     justify-content:center;
@@ -64,12 +70,13 @@
         width: 100%;
         /* border-top: 1px solid green; */
         padding:0rem;
+        margin: auto;
     }
     .header_container{
         width: 100%;
         /* border: 1px solid red; */
-        margin:0;
-        padding:0rem;
+        /* margin:0; */
+        /* padding:0rem; */
         margin-top: 90px;
 
     }
@@ -92,14 +99,14 @@
   @media screen and (max-width: 600px){
 
     .header{
-        width: 100%;
-        /* border-top: 1px solid green; */
-        padding:0rem;
+        width: 95%;
+        border-top: 3px solid green;
+        /* padding:0rem; */
     }
     .header_container{
         width: 100%;
         /* border: 1px solid red; */
-        margin:0;
+        margin:auto;
         padding:0rem;
         margin-top: 90px;
 
@@ -110,7 +117,8 @@
     }
     
     .me{
-        width: 15rem;
+        width: 200px;
+        margin: auto;
     }
     .about{ 
         letter-spacing: 0rem;
