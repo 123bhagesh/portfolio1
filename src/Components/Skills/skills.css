@@ -1,9 +1,9 @@
-.skills{
+.skills {
     /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; */
-    margin:auto;
+    margin: auto;
     width: 90%;
     height: 100%;
     background-color: #f5f5f5;
@@ -15,46 +15,50 @@
     /* border: 2px solid white; */
 }
 
-.skillsContainer{ 
+.skillsContainer {
     width: 100%;
     /* border: 1px solid yellow; */
-     display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-top: 30px;
-    }
+}
 
-    .front,.back{
-        width: 85%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: repeat(5, auto);
-        row-gap: 50px;
-        column-gap: 30px;
-        
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
-        /* padding: 1rem; */
-        margin: auto;
-        background-color: var(--color-bg);
-        /* border-radius: 0.5rem;
+.front,
+.back {
+    width: 85%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    row-gap: 50px;
+    column-gap: 30px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding: 1rem; */
+    margin: auto;
+    background-color: var(--color-bg);
+    /* border-radius: 0.5rem;
         box-shadow: 0 0.5rem 1rem rgba(104, 154, 230, 0.2); */
-        transition: var(--transition);
-        box-sizing: border-box;
-        /* border: 1px solid white; */
-    } 
+    transition: var(--transition);
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
 
-.front > a:hover, .back > a:hover{
+.front>a:hover,
+.back>a:hover {
     transform: scale(1.1);
     box-shadow: 0 0.8rem 1rem rgba(104, 154, 230, 0.2);
     color: var(--color-primary);
 }
-.front > a, .back > a{
+
+.front>a,
+.back>a {
     width: 8rem;
     height: 8rem;
-    object-fit:contain;
+    object-fit: contain;
     box-sizing: border-box;
     /* border-radius: 50%; */
     background-color: var(--color-white);
@@ -65,25 +69,30 @@
     padding: 0.5rem; */
 
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    border-radius: 6px;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--color-primary);
     transition: var(--transition);
     box-sizing: border-box;
-    overflow:visible;
-    
+    overflow: visible;
+
 }
-a > p{
+
+a>p {
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
 }
-.front .back{
+
+.front .back {
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     width: 100%;
     height: 100%;
@@ -94,19 +103,23 @@ a > p{
     background-color: var(--color-bg);
     padding: 0;
     margin: 0;
-    }
+}
 
 /* =============Media Queries (Medium devices)=========== */
 
-@media screen and (max-width: 1110px){
-    .skills{
+@media screen and (max-width: 1110px) {
+    .skills {
         width: 100%;
     }
-    .front > a, .back > a{
+
+    .front>a,
+    .back>a {
         max-width: 5rem;
-        max-height: 5rem;  
+        max-height: 5rem;
     }
-    .front,.back{
+
+    .front,
+    .back {
         width: 90%;
         height: 100%;
         display: flex;
@@ -119,33 +132,39 @@ a > p{
         gap: 50px;
 
     }
-    a>p{
+
+    a>p {
         font-size: .9rem;
         margin-top: 4px;
     }
-    .skillsContainer{ 
+
+    .skillsContainer {
         margin-top: 15px;
-     }
-  }
-  
-    
-  /* =============Media Queries (Small devices)=========== */
-  
-  @media screen and (max-width: 600px){
-    .front{
+    }
+}
+
+
+/* =============Media Queries (Small devices)=========== */
+
+@media screen and (max-width: 600px) {
+    .front {
         gap: 15px 10px;
 
     }
-    .front > a, .back > a{
+
+    .front>a,
+    .back>a {
         max-width: 4rem;
-        max-height: 4rem;  
-        margin:1rem;
+        max-height: 4rem;
+        margin: 1rem;
     }
-    a>p{
+
+    a>p {
         font-size: 0.8rem;
         margin-top: 4px;
     }
-    .skillsContainer{ 
-       margin-top: 15px;
+
+    .skillsContainer {
+        margin-top: 15px;
     }
 }
