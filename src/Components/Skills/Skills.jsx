@@ -67,7 +67,7 @@ const Skills = () => {
             <p>DSA</p>
             </a>
             <a href="#">
-            <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" alt="Material UI" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNf_xyfNDyt3NEy0S-ETw_2x6qhLwpqax89nd7hgqoA&s" alt="Material UI" />
             <p>MUI</p>
             </a>
             <a href="#">
@@ -75,7 +75,7 @@ const Skills = () => {
             <p>AWS</p>
             </a>
             <a href="#">
-            <img src="https://assets.stickpng.com/images/58480f36cef1014c0b5e4934.png" alt="Markdown" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/2560px-Markdown-mark.svg.png" alt="Markdown" />
             <p>Markdown</p>
             </a>
             <a href="#">
