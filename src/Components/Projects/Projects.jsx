@@ -364,8 +364,7 @@ const Projects = () => {
           <br />
           <h2>Tech Stack:-</h2>
           <p>
-            HTML | CSS | Javascript | React | Redux | Firebase | Material UI |
-            Heroku Api
+            HTML | CSS | Javascript | React | Redux | Firebase | Material UI 
           </p>
 
           <div className="live-links">
