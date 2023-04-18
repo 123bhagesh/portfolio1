@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import "./about.css";
+import "./education.css";
 let educationData = [
   {
     qualification: "Full Stack Web Developer",
@@ -19,7 +19,7 @@ let educationData = [
     dataFrom: "Jul 2015 - Jun 2018",
   },
 ];
-const About = () => {
+const Education = () => {
   return (
     <div id="about" className="project">
       <center>
@@ -60,4 +60,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Education;

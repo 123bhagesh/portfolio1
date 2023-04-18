@@ -35,11 +35,11 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="#about"
-            onClick={() => setActiveNav("#about")}
+            href="#education"
+            onClick={() => setActiveNav("#education")}
             className={activeNav === "#about" ? "active" : ""}
           >
-            About
+            Education
           </a>
           <a
             href="#skills"
