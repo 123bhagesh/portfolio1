@@ -1,4 +1,4 @@
-.navbarContainer{
+.navbarContainer {
     width: 100%;
     background: #150303f2;
     position: fixed;
@@ -28,8 +28,8 @@ nav {
     /* flex-direction: column; */
     justify-content: space-around;
     /* gap: 40px; */
-    
-    
+
+
 }
 
 nav a {
@@ -70,26 +70,46 @@ nav a.active {
 
 
 }
-.btnResume{
+
+.btnResume {
     font-size: 15px;
     padding: 6px 10px;
-    border: 1px solid  white;
-    color:  white;
+    border: 1px solid white;
+    color: white;
     border-radius: 8px;
     cursor: pointer;
 }
-@media screen and (max-width: 1150px){
+
+@media screen and (max-width: 1150px) {
     nav {
         background: #150303f2;
-        width: 80%;
+        width: 85%;
+    }
+    nav a {
+        /* padding-top: 8px; */
+        font-size: 14px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 1px;
+    }
+    .btnResume {
+        /* display: none; */
+        font-size: 13px;
+        padding: 4px 8px;
+        border: 1px solid white;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
     }
 }
-@media screen and (max-width: 650px){
-.navbarContainer{
-    width: 100%;
-    margin: auto;
 
-}
+@media screen and (max-width: 650px) {
+    .navbarContainer {
+        width: 100%;
+        margin: auto;
+
+    }
+
     nav {
         background: #0b0101f2;
         width: 100%;
@@ -102,6 +122,7 @@ nav a.active {
         gap: 2px;
 
     }
+
     nav a {
         /* padding-top: 8px; */
         font-size: 12px;
@@ -109,11 +130,12 @@ nav a.active {
         margin-left: 0;
         margin-bottom: 1px;
     }
+
     nav a.active {
         /* background-color:var(--color-bg); */
         color: var(--color-white);
         margin-top: 9px;
-        background-color:#43b5ff;
+        background-color: #43b5ff;
         /* margin-top: 10px; */
         border: 1px solid white;
         border-top: none;
@@ -123,7 +145,18 @@ nav a.active {
         padding: 4px 7px;
 
     }
+
+    .btnResume {
+        display: none;
+        font-size: 12px;
+        padding: 3px 2px;
+        border: 1px solid white;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 }
+
 /* @media screen and (max-width: 450px){
     .navbarContainer{
         width: 100%;
