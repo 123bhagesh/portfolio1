@@ -21,7 +21,7 @@ const Navbar = () => {
 
   const viewResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing"
+      "https://drive.google.com/file/d/1G0lgz2OAL_UyoY2NON6MzOyM8gn0OQ2P/view?usp=sharing"
     );
   };
   return (
