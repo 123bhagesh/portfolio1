@@ -76,7 +76,7 @@ const Navbar = () => {
           target="_blank"
           className="btnResume"
         >
-          Download Resume
+          Resume
         </a>
         </nav>
 

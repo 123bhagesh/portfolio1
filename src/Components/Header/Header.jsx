@@ -80,7 +80,7 @@ const Header = () => {
                 target="_blank"
                 className="btn"
               >
-                Download Resume
+                Resume
               </a>
 
               <a href="#contact" className="btn btn-primary">
