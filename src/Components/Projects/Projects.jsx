@@ -147,12 +147,12 @@ const Projects = () => {
             <a target="_blank" href="http://52.65.35.157">
               <BsRocketTakeoff /> Live Site
             </a>
-            <a
+            {/* <a
               target="_blank"
               // href=""
             >
-              {/* <BsGithub /> Github  <div className="mobileView">Repo</div> */}
-            </a>
+              <BsGithub /> Github  <div className="mobileView">Repo</div>
+            </a> */}
           </div>
         </div>
       </div>
@@ -279,12 +279,12 @@ const Projects = () => {
             <a target="_blank" href="#">
               <BsRocketTakeoff /> Live Site
             </a>
-            <a
+            {/* <a
               target="_blank"
               href="https://github.com/masai-builds/masai-tutorials-team3"
             >
-              {/* <BsGithub /> Github <div className="mobileView">Repo</div> */}
-            </a>
+              <BsGithub /> Github <div className="mobileView">Repo</div>
+            </a> */}
           </div>
         </div>
       </div>
