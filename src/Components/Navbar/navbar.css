@@ -72,12 +72,15 @@ nav a.active {
 }
 
 .btnResume {
+    display: flex;
+    align-items: center;
     font-size: 15px;
     padding: 6px 10px;
     border: 1px solid white;
     color: white;
     border-radius: 8px;
     cursor: pointer;
+    gap: 5px;
 }
 
 @media screen and (max-width: 1150px) {
@@ -93,7 +96,8 @@ nav a.active {
         margin-bottom: 1px;
     }
     .btnResume {
-        /* display: none; */
+        display: flex;
+        align-items: center;
         font-size: 12px;
         padding: 5px 8px;
         border: 1px solid white;

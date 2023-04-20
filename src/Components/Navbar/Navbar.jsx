@@ -7,6 +7,7 @@ import { RiServiceLine } from "react-icons/ri";
 import { BiMessageDetail } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import resumeFile from "../../assets/BhageshResume.pdf";
+import { CgFileDocument } from 'react-icons/cg'
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -76,7 +77,7 @@ const Navbar = () => {
           target="_blank"
           className="btnResume"
         >
-          Resume
+         <CgFileDocument/> Resume
         </a>
         </nav>
 

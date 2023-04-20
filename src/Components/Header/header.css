@@ -56,6 +56,11 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 /* =============Media Queries (Medium devices)=========== */
 
 @media screen and (max-width: 1110px){

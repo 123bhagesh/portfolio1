@@ -6,6 +6,7 @@ import Navbar from "../Navbar/Navbar";
 import resumeFile from "../../assets/BhageshResume.pdf";
 // import HeaderSocial from "./HeaderSocial";
 import Typewriter from "typewriter-effect";
+import { CgFileDocument } from 'react-icons/cg'
 
 const handleResume = () => {
   let alink = document.createElement("a");
@@ -80,7 +81,7 @@ const Header = () => {
                 target="_blank"
                 className="btn"
               >
-                Resume
+         <CgFileDocument/> Resume
               </a>
 
               <a href="#contact" className="btn btn-primary">
