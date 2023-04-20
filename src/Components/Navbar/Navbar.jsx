@@ -13,11 +13,12 @@ const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
 
   const handleResume = () => {
+    viewResume();
+
     let alink = document.createElement("a");
     alink.href = resumeFile;
     alink.download = "Bhagesh Madavi Resume.pdf";
     alink.click();
-    viewResume();
   };
 
   const viewResume = () => {

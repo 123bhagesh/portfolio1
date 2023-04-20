@@ -9,11 +9,12 @@ import Typewriter from "typewriter-effect";
 import { CgFileDocument } from 'react-icons/cg'
 
 const handleResume = () => {
+  viewResume();
+
   let alink = document.createElement("a");
   alink.href = resumeFile;
   alink.download = "Bhagesh Madavi Resume.pdf";
   alink.click();
-  viewResume();
 };
 // let resumeLink=  "https://drive.google.com/file/d/1vcE3ji5Olc3bFHvEfoDvBWtn-SoDV9zV/view?usp=sharing";
 
