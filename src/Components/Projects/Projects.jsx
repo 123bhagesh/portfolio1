@@ -106,10 +106,10 @@ const Projects = () => {
         </div>
         <div className="project-description">
           <h2 style={{ fontSize: "31px" }}>
-            Industry product- AIMEE International School{" "}
+            Industry product- AIMEE School Management System
           </h2>
           <p>
-            AIMEE Management Portal is a school and learning management system
+            AIMEE Management Portal is a school management system
             where some roles bashed dashboard are allowed to do and manage the
             thing in a school or orgnisation. We are buiding and designing this
             product to manage student data like Academic Profile of the Student, Behavioural Profile of the Student, Sports Profile of the Student, Co-Curricular Activities Profile of the Student.
@@ -151,7 +151,7 @@ const Projects = () => {
               target="_blank"
               // href=""
             >
-              <BsGithub /> Github  <div className="mobileView">Repo</div>
+              {/* <BsGithub /> Github  <div className="mobileView">Repo</div> */}
             </a>
           </div>
         </div>
@@ -273,7 +273,7 @@ const Projects = () => {
           <h3>Backend Tech Stack-</h3>
           <p>
             JAVA | Spring Boot | Maven | Mysql | Apache | JWT | AWS | Postman |
-            Nginx{" "}
+            Nginx
           </p>
           <div className="live-links">
             <a target="_blank" href="#">
@@ -283,7 +283,7 @@ const Projects = () => {
               target="_blank"
               href="https://github.com/masai-builds/masai-tutorials-team3"
             >
-              <BsGithub /> Github <div className="mobileView">Repo</div>
+              {/* <BsGithub /> Github <div className="mobileView">Repo</div> */}
             </a>
           </div>
         </div>
