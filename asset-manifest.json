@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bhagesh-portfolio/static/css/main.c06e6398.css",
-    "main.js": "/bhagesh-portfolio/static/js/main.89d3a00c.js",
+    "main.css": "/bhagesh-portfolio/static/css/main.a264abf4.css",
+    "main.js": "/bhagesh-portfolio/static/js/main.02f3dc46.js",
     "static/js/787.1ed0c42c.chunk.js": "/bhagesh-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/asos.png": "/bhagesh-portfolio/static/media/asos.9749aeee6307ad910932.png",
     "static/media/dnaIndia.png": "/bhagesh-portfolio/static/media/dnaIndia.c74124a9e048a7c672b6.png",
@@ -13,12 +13,12 @@
     "static/media/indeed.png": "/bhagesh-portfolio/static/media/indeed.5227751217c0bf9216fb.png",
     "static/media/BhageshResume.pdf": "/bhagesh-portfolio/static/media/BhageshResume.648a51fc58d42e711679.pdf",
     "index.html": "/bhagesh-portfolio/index.html",
-    "main.c06e6398.css.map": "/bhagesh-portfolio/static/css/main.c06e6398.css.map",
-    "main.89d3a00c.js.map": "/bhagesh-portfolio/static/js/main.89d3a00c.js.map",
+    "main.a264abf4.css.map": "/bhagesh-portfolio/static/css/main.a264abf4.css.map",
+    "main.02f3dc46.js.map": "/bhagesh-portfolio/static/js/main.02f3dc46.js.map",
     "787.1ed0c42c.chunk.js.map": "/bhagesh-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c06e6398.css",
-    "static/js/main.89d3a00c.js"
+    "static/css/main.a264abf4.css",
+    "static/js/main.02f3dc46.js"
   ]
 }
