@@ -17,7 +17,7 @@ const Navbar = () => {
 
     let alink = document.createElement("a");
     alink.href = resumeFile;
-    alink.download = "Bhagesh Madavi Resume.pdf";
+    alink.download = "Bhagesh-Madavi-Resume.pdf";
     alink.click();
   };
 
