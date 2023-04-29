@@ -276,7 +276,7 @@ const Projects = () => {
             Nginx
           </p>
           <div className="live-links">
-            <a target="_blank" href="http//:13.233.50.68">
+            <a target="_blank" href="http://13.233.50.68">
               <BsRocketTakeoff /> Live Site
             </a>
             {/* <a
