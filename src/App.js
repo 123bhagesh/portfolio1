@@ -9,7 +9,6 @@ import Education from "./Components/About/Education.jsx"
 function App() {
   const [activeNav, setActiveNav] =useState("#")
 
-
   return (
     <div className="App">
       <Navbar/>
