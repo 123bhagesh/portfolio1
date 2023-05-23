@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bhagesh-portfolio/static/css/main.a264abf4.css",
-    "main.js": "/bhagesh-portfolio/static/js/main.f20fbbe6.js",
+    "main.js": "/bhagesh-portfolio/static/js/main.b0817bfe.js",
     "static/js/787.1ed0c42c.chunk.js": "/bhagesh-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/asos.png": "/bhagesh-portfolio/static/media/asos.9749aeee6307ad910932.png",
     "static/media/dnaIndia.png": "/bhagesh-portfolio/static/media/dnaIndia.c74124a9e048a7c672b6.png",
@@ -10,15 +10,15 @@
     "static/media/Bhagesh_Photo.jpg": "/bhagesh-portfolio/static/media/Bhagesh_Photo.38dd43cdc037279fb588.jpg",
     "static/media/aimeeDash.png": "/bhagesh-portfolio/static/media/aimeeDash.4eda621ae81e76c62883.png",
     "static/media/landingmasailearn.PNG": "/bhagesh-portfolio/static/media/landingmasailearn.dfd1fe4c085c8cb72f65.PNG",
-    "static/media/BhageshResume.pdf": "/bhagesh-portfolio/static/media/BhageshResume.15b96408dbfa45891ba1.pdf",
+    "static/media/BhageshResume.pdf": "/bhagesh-portfolio/static/media/BhageshResume.0c8e111b0e9e31575d87.pdf",
     "static/media/indeed.png": "/bhagesh-portfolio/static/media/indeed.5227751217c0bf9216fb.png",
     "index.html": "/bhagesh-portfolio/index.html",
     "main.a264abf4.css.map": "/bhagesh-portfolio/static/css/main.a264abf4.css.map",
-    "main.f20fbbe6.js.map": "/bhagesh-portfolio/static/js/main.f20fbbe6.js.map",
+    "main.b0817bfe.js.map": "/bhagesh-portfolio/static/js/main.b0817bfe.js.map",
     "787.1ed0c42c.chunk.js.map": "/bhagesh-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a264abf4.css",
-    "static/js/main.f20fbbe6.js"
+    "static/js/main.b0817bfe.js"
   ]
 }
