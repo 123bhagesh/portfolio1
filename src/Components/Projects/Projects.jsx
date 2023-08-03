@@ -464,10 +464,6 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Second Project */}
-
-      {/* Third project */}
-
     </div>
   );
 };
